@@ -113,6 +113,11 @@ to avoid leaving unused data behind.
 It handles parking, storing, and impounding independently.
 The base garage’s vehicle states do not affect RealParking.
 
+🚔 Note for Police Impounds:
+If the police impound a vehicle through another system (for example, via a police menu or command),
+the vehicle will disappear from the map, as police impounding is not integrated with RealParking.
+Only RealParking’s own impound logic handles vehicles persistently in the database.
+
 🧾 The parking ticket requires an image file named parking_ticket.png,
 which is included in the default files.
 You can replace it with any design,
